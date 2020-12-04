@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/calculadora.js"></script>
+    
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="calc">Calculadora</div>
+
+        <div class="num1">
+        <label for="numero" class="label">Digite o primeiro número: </label> <br>
+        <input id="numero1" type="text" class="input"><br>
+        </div>
+        
+        <div class="num2">
+        <label for="numero" class="label">Digite o segundo número: </label> <br>
+        <input id="numero2" type="text" class="input"><br>
+        </div>
+        
+        <div class="operadores">Selecione um operador para fazer o cálculo: <br>
+        <button onclick="calcular(event)">+</button>
+        <button onclick="calcular(event)">-</button>
+        <button onclick="calcular(event)">*</button>
+        <button onclick="calcular(event)">/</button>
+        </div>
+          <br>
+        <div class="result">
+        O resultado da sua operação é: <span id="resultado"></span>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+    padding: 50px;
+
+}
+.calc{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    line-height: 1.25em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+    padding-bottom: 15px;
+}
+.num1{
+    color: white;
+    background: transparent;
+    border: 0;
+    border: 1px solid white;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1em;
+    
+    border-radius: 3px;
+}
+.num2{
+    color: white;
+    background: transparent;
+    border: 0;
+    border: 1px solid white;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1em;
+}
+.operadores{
+    color: white;
+    align-content: center;
+    display: block;
+    background: transparent;
+    border: 0;
+    border: 1px solid white;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1em;
+}
+.result{
+    color: white;
+    background: transparent;
+    border: 0;
+    border: 1px solid white;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1em;
+}
+
+
