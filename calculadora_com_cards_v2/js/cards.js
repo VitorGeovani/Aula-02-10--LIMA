@@ -34,12 +34,12 @@ function graus_temp(event) {
     let resultado2
 
     switch (operacao2) {
-        case "Celsius":
+        case "Celsius para Fahrenheit":
             console.log("celsius");
             resultado2 = (num2 - 32) * 5/9;
             break;
     
-        case "Fahrenheit":
+        case "Fahrenheit para Celsius":
             console.log("fahrenheit");
             resultado2 = (num2 * 1.8) + 32;
             break;
