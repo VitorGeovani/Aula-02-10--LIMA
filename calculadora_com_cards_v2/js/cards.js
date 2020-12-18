@@ -86,7 +86,7 @@ function triangulo(event) {
 
 function conversor_moedas(event) {
     let precoReal = parseFloat(document.getElementById("numero7").value)
-    let taxa = 5.05
+    let taxa = 5.06
     let resultado5 
 
     resultado5 = precoReal / taxa;
